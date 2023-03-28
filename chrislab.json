@@ -148,7 +148,7 @@
                 "osProfile": {
                     "computerName": "backendSERVER",
                     "adminUsername": "beardmin",
-                    "adminPassword": "blahblah123!"
+                    "adminPassword": "blahblah123!",
                     "windowsConfiguration": {
                         "provisionVMAgent": true,
                         "enableAutomaticUpdates": true,
@@ -208,7 +208,7 @@
                 "osProfile": {
                     "computerName": "[parameters('virtualMachines_backendSERVER_name')]",
                     "adminUsername": "beardmin",
-                    "adminPassword": "blahblah123!"
+                    "adminPassword": "blahblah123!",
                     "windowsConfiguration": {
                         "provisionVMAgent": true,
                         "enableAutomaticUpdates": true,
@@ -268,7 +268,7 @@
                 "osProfile": {
                     "computerName": "[parameters('virtualMachines_frontendSERVER_name')]",
                     "adminUsername": "beardmin",
-                    "adminPassword": "blahblah123!"
+                    "adminPassword": "blahblah123!",
                     "linuxConfiguration": {
                         "disablePasswordAuthentication": false,
                         "provisionVMAgent": true,
