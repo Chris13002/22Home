@@ -186,7 +186,6 @@
               "tier": "Regional"
           },
           "properties": {
-              "ipAddress": "13.84.179.180",
               "publicIPAddressVersion": "IPv4",
               "publicIPAllocationMethod": "Dynamic",
               "idleTimeoutInMinutes": 4,
@@ -226,7 +225,6 @@
               "tier": "Regional"
           },
           "properties": {
-              "ipAddress": "13.84.179.192",
               "publicIPAddressVersion": "IPv4",
               "publicIPAllocationMethod": "Dynamic",
               "idleTimeoutInMinutes": 4,
