@@ -670,12 +670,6 @@
             "apiVersion": "2022-07-01",
             "name": "[parameters('networkSecurityGroups_frontendSERVER_nsg_name')]",
             "location": "[resourceGroup().location]",
-            "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups/securityRules', parameters('networkSecurityGroups_frontendSERVER_nsg_name'), 'SSH')]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups/securityRules', parameters('networkSecurityGroups_frontendSERVER_nsg_name'), 'HTTPS')]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups/securityRules', parameters('networkSecurityGroups_frontendSERVER_nsg_name'), 'HTTP')]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups/securityRules', parameters('networkSecurityGroups_frontendSERVER_nsg_name'), 'RDP')]"
-            ],
             "tags": {
                 "BeardSite": "southcentralus"
             },
