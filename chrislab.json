@@ -71,23 +71,6 @@
                           "sourceAddressPrefixes": [],
                           "destinationAddressPrefixes": []
                       }
-                  },
-                  {
-                      "name": "SSH",
-                      "properties": {
-                          "protocol": "UDP",
-                          "sourcePortRange": "*",
-                          "destinationPortRange": "22",
-                          "sourceAddressPrefix": "*",
-                          "destinationAddressPrefix": "*",
-                          "access": "Allow",
-                          "priority": 320,
-                          "direction": "Inbound",
-                          "sourcePortRanges": [],
-                          "destinationPortRanges": [],
-                          "sourceAddressPrefixes": [],
-                          "destinationAddressPrefixes": []
-                      }
                   }
               ]
           }
